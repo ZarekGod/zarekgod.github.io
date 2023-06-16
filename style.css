@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#link-list {
+  list-style: none;
+  padding: 0;
+}
+
+#link-list li {
+  margin-bottom: 10px;
+}
+
+#link-list li a {
+  display: inline-block;
+  padding: 5px;
+  background-color: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#link-list li a:hover {
+  background-color: transparent;
+}
+
+body {
+  background-color: #f2f2f2;
+  background-image: url('imagen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
